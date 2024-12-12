@@ -16,9 +16,16 @@ function App() {
           </div>
         </div>
         <div className="w-full h-full flex flex-col overflow-auto rounded-lg lg:rounded-t-3xl bg-[#414545] bg-dotted bg-dots">
-          <img src="/assets/sortit.svg" className="mx-auto mt-10 h-8 " alt="" />
+          <div className="flex gap-5 items-center justify-center ">
+            <img src="/assets/logo.svg" className=" mt-20 h-6 " alt="" />
+            <img
+              src="/assets/sortit.svg"
+              className=" mt-20 h-8 " 
+              alt=""
+            />
+          </div>
           <div className="flex mb-10  w-full flex-1 justify-center items-center ">
-            <HomePage/>
+            <HomePage />
           </div>
         </div>
       </div>

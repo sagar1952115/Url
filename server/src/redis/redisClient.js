@@ -8,8 +8,8 @@ console.log("this is passdfads", password);
 const redisClient = createClient({
   password: password,
   socket: {
-    host: "redis-11207.c277.us-east-1-3.ec2.redns.redis-cloud.com",
-    port: 11207,
+    host: "redis-10864.c99.us-east-1-4.ec2.redns.redis-cloud.com",
+    port: 10864,
   },
 });
 
